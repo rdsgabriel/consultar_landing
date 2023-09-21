@@ -9,7 +9,7 @@ export default function Navbar() {
         <Link className='hover:bg-emerald-500' href="/servicos">
           Serviços
         </Link>
-        <div className="mx-2 border-l-2 border-white border-opacity-10 h-6"></div>
+        <div className="mx-2 border-l-2 border-white border-opacity-10 h-"></div>
         <Link className='hover:bg-emerald-500' href="/contatos">
           Contatos
         </Link>
