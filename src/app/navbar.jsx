@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Navbar() {
+const Navbar = () => {
   return (
-    <div className="fixed max-w-full w-full text-lg lg:flex justify-between pb-6 items-center border-b border-gray-300 border-opacity-10">
+    <div className="fixed max-w-full w-full text-lg lg:flex justify-between bg-blu pb-6 pt-7 items-center border-b border-gray-300 border-opacity-10">
       <div className="flex justify-around flex-1 text-white">
 
         <Link className='hover:bg-emerald-500' href="/servicos">
           Serviços
         </Link>
-        <div className="mx-2 border-l-2 border-white border-opacity-10 h-"></div>
+        <div className="mx-2 border-l-2 border-white border-opacity-10 h-6"></div>
         <Link className='hover:bg-emerald-500' href="/contatos">
           Contatos
         </Link>
@@ -51,3 +51,5 @@ export default function Navbar() {
 
   );
 }
+
+export default Navbar
