@@ -13,7 +13,7 @@ const Body = () => {
           priority
         />
         <Image
-          src="/ice.svg"
+          src="/two.svg"
           alt="Vercel Logo"
           className="dark:invert"
           width={100}
@@ -29,7 +29,7 @@ const Body = () => {
           priority
         />
         <Image
-          src="/ice.svg"
+          src="/two.svg"
           alt="Vercel Logo"
           className="dark:invert"
           width={100}
